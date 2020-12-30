@@ -1,0 +1,116 @@
+body{
+      font-family: 'Oswald', sans-serif;
+font-weight: 200;
+padding: 0;
+margin: 0;
+}
+h1,h2,h5,h4{
+      font-family: "Courgette",sans-serif;
+}
+
+header{
+      background-color: black;
+      background-image: url("../img/header.jpg");
+    color: white;
+      background-position: center center;
+      text-align: center;
+      height: 500px;
+      margin-bottom: 40px;
+}
+header .container-fluid{
+      background:rgb(0, 0, 0,.5);
+     
+      margin-bottom: 50px;
+      height: 500px;
+}
+nav{
+      border-bottom: 1px wheat solid;
+}
+.tite{
+      color: white;
+      font-family: 'Courgette', cursive;
+}
+.inp{
+      margin-bottom: 40px;
+}
+
+ul li{
+      list-style: none;
+}
+
+.card-body{
+      width: 600px;
+}
+ul li a{
+      color: white;
+}
+
+.text-muted{
+      line-height: 1;
+}
+
+ ul .icon{
+      background-color: white;
+ 
+      
+     display: block;
+     height: 20px;
+     color: black;
+     width: 30px
+}
+.d-block{
+      display: block;
+      width: 200px;
+      
+}
+
+.logo-header {
+      margin-top: 15px;
+      padding-top: 15px;
+  }
+  
+  .logo-header img {
+      width: 64px;
+  }
+  
+  
+footer {
+    background: black;
+    color: white;
+    padding: 30px 0;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .social-icons li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin: 0 2px;
+}
+footer .social-icons .fa-instagram {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+footer .social-icons a {
+    color: black;
+} 
+
+footer .btn {
+    color: white;
+    background: black;
+    border:1px solid white;
+}
+@media all and (max-width: 500px) {
+  
+  footer ul {
+display: block;
+  }
+}
